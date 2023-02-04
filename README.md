@@ -23,29 +23,29 @@ After initial testing, the dataset required further processing to improve model 
 
 The original neural network was designed with 12 neurons in the first layer and 10 neurons in the hidden layer. Both layers were instantiated using 'relu' activation. This neural network acheived an accuracy score of 0.5102 and loss of 0.7978. See Figure 1; Figure 7: 'nn_model_0'.
 
-![Figure 1]('/analysis/Neural_Network_Model_Loss_Accuracy.png')
+![Figure 1]('/challenge/analysis/Neural_Network_Model_Loss_Accuracy.png')
 
 The dataset was further processed to ensure that all columns were appropriately balanced before training and testing a new model. Test 1 achieved an accuracy score of 0.7314 and loss of 0.5556. See Figure 2; Figure 7: 'nn_model_1'.
 
-![Figure 2]('/analysis/Optimized_Neural_Network_Model_1H_Test_1_evaluation_graph.png')
+![Figure 2]('/challenge/analysis/Optimized_Neural_Network_Model_1H_Test_1_evaluation_graph.png')
 
 
 The dataset was then modified to remove 'STATUS' and 'SPECIAL_CONSIDERATION' features, since both columns were highly imbalanced. Test 2 achieved an accuracy score of 0.7255 and loss of 0.5554. See Figure 3; Figure 7: 'nn_model_2'.
 
-![Figure 3]('/analysis/Optimized_Reduced_Neural_Network_Model_1H_Test_2_evaluation_graph.png')
+![Figure 3]('/challenge/analysis/Optimized_Reduced_Neural_Network_Model_1H_Test_2_evaluation_graph.png')
 
 Since the secondary reduction produced a lower accuracy score than the primary reduction, a new model was instantiated using the primarily reduced dataset from Test 1, and "tanh" activation function. Test 3 achieved an accuracy score of 0.7299 and loss of 0.5555. See Figure 4; Figure 7: 'nn_model_3'.
 
 
-![Figure 4]('/analysis/Optimized_Tanh_Neural_Network_Model_1H_Test_3_evaluation_graph.png')
+![Figure 4]('/challenge/analysis/Optimized_Tanh_Neural_Network_Model_1H_Test_3_evaluation_graph.png')
 
 Since this model did not significantly improve loss or accuracy, the secondarily reduced dataset from Test 2 was tested with "tanh" activation. Test 4 achieved an accuracy score of 0.7314 and loss of 0.5567. See Figure 5; Figure 7: 'nn_model_4'.
 
-![Figure 5]('/analysis/Optimized_Tanh_Reduced_Neural_Network_Model_1H_Test_4_evaluation_graph.png')
+![Figure 5]('/challenge/analysis/Optimized_Tanh_Reduced_Neural_Network_Model_1H_Test_4_evaluation_graph.png')
 
 Finally, since no models showed significant improvement past 73% accuracy, a new model was created that added an extra hidden layer with 8 neurons to the original model. Test 5 achieved an accuracy score 0.7305 and loss of 0.5573. See Figure 6; Figure 7: 'nn_model_5'.
 
-![Figure 6]('/analysis/Optimized_Neural_Network_Model_2H_Test_5_evaluation_graph.png')
+![Figure 6]('/challenge/analysis/Optimized_Neural_Network_Model_2H_Test_5_evaluation_graph.png')
 
 
 
@@ -57,7 +57,7 @@ Finally, since no models showed significant improvement past 73% accuracy, a new
 |Test 3|0.5555|0.7299|
 |Test 4|0.5567|0.7314|
 |Test 5|0.5573|0.7305|
-![Figure 7]('/analysis/Loss_Accuracy_Tests.png')
+![Figure 7]('/challenge/analysis/Loss_Accuracy_Tests.png')
 ## Summary 
 
 Overall Tests 1 and 4 both achieved the highest accuracy scores of 0.7314, with Test 1 receiving a marginally better loss of 0.5556, compared to Test 4. 
