@@ -45,7 +45,7 @@ Since this model did not significantly improve loss or accuracy, the secondarily
 
 Finally, since no models showed significant improvement past 73% accuracy, a new model was created that added an extra hidden layer with 8 neurons to the original model. Test 5 achieved an accuracy score 0.7305 and loss of 0.5573. See Figure 6; Figure 7: 'nn_model_5'.
 
-![Figure 6]('/challenge/analysis/Optimized_Neural_Network_Model_2H_Test_5_evaluation_graph.png')
+![Figure 6] ('/challenge/analysis/Optimized_Neural_Network_Model_2H_Test_5_evaluation_graph.png')
 
 
 
