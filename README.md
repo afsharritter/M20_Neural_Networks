@@ -23,7 +23,7 @@ After initial testing, the dataset required further processing to improve model 
 
 The original neural network was designed with 12 neurons in the first layer and 10 neurons in the hidden layer. Both layers were instantiated using 'relu' activation. This neural network acheived an accuracy score of 0.5102 and loss of 0.7978. See Figure 1; Figure 7: 'nn_model_0'.
 
-![Figure 1]('/challenge/analysis/Neural_Network_Model_Loss_Accuracy.png')
+![Figure 1]('./challenge/analysis/Neural_Network_Model_Loss_Accuracy.png')
 
 The dataset was further processed to ensure that all columns were appropriately balanced before training and testing a new model. Test 1 achieved an accuracy score of 0.7314 and loss of 0.5556. See Figure 2; Figure 7: 'nn_model_1'.
 
